@@ -1,0 +1,63 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.form-group {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#question {
+  display: block;
+  width: 220px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+label {
+  font-family: 'Helvetica';
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-align: center;
+}
+.btn {
+  margin-top: 15px;
+  padding: 15px;
+  font-family: 'Helvetica';
+  font-weight: lighter;
+}
+.the-coach-page {
+  display: block;
+  text-align: center;
+  font-family: 'Helvetica';
+}
+.question-form,
+.text-form,
+.the-button {
+  margin: 0;
+}
+.question-form {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 28px;
+}
+.text-form {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.the-button {
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #319F97;
+  color: white;
+  border-radius: 6px;
+}
